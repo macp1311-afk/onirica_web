@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onírica Manualidades | Portafolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="glass">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="Logo Onírica" class="header-logo">
+            Onírica<span>Manualidades</span>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Abrir menú"></button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content reveal">
+            <h1>Haciendo realidad tus sueños</h1>
+            <p>Bienvenido al portafolio de Onírica Manualidades. Descubre nuestras creaciones únicas: muñecos, llaveros,
+                libretas y dibujos, todos hechos a mano con amor y un toque místico.</p>
+            <a href="#portafolio" class="hero-btn">Ver Colección</a>
+        </div>
+        <div class="hero-image reveal">
+            <img src="images/doll.jpg" alt="Muñeco astronauta amigurumi">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="about-image reveal">
+            <div class="glass"
+                style="width:100%; height:400px; display:flex; align-items:center; justify-content:center; border-radius:30px;">
+                <img src="images/logo.png" alt="Logotipo gigante de Onírica Manualidades"
+                    style="width: 230px; height: 230px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 40px rgba(216, 180, 226, 0.5);">
+            </div>
+        </div>
+        <div class="about-text reveal">
+            <h2>Sobre Onírica</h2>
+            <p>Onírica Manualidades nace de la pasión por crear objetos tangibles a partir de sueños e imaginación.
+                Somos una micro empresa dedicada a la artesanía premium y personalizada.</p>
+            <p>Cada pieza es elaborada meticulosamente para transmitir emociones. Utilizamos materiales de alta calidad
+                y técnicas que combinan lo tradicional con un toque moderno y surrealista. Nos enorgullece crear cada
+                producto a medida, garantizando que cada cliente tenga algo verdaderamente único.</p>
+
+            <div class="about-stats">
+                <div class="stat-box glass">
+                    <div class="stat-number">+100</div>
+                    <div class="stat-label">Creaciones Únicas</div>
+                </div>
+                <div class="stat-box glass">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Hecho a Mano</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portafolio">
+        <h2 class="reveal">Nuestro Portafolio</h2>
+
+        <div class="portfolio-filters reveal">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="munecos">Muñecos</button>
+            <button class="filter-btn" data-filter="llaveros">Llaveros</button>
+            <button class="filter-btn" data-filter="libretas">Libretas</button>
+            <button class="filter-btn" data-filter="dibujos">Dibujos</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Item 1: Muñeco -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/doll.jpg" alt="Muñeco astronauta de crochet">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">Astronauta Amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- NUEVO MUÑECO 2 -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/moonknight.jpeg" alt="Segundo muñeco">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">Moonknight Amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- NUEVO MUÑECO 3 -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/perrorugrats.jpeg" alt="Tercer muñeco">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">Perro Rugrats Amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- NUEVO MUÑECO 4 -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/btsamigurumi.jpeg" alt="Cuarto muñeco">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">BTS amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- NUEVO MUÑECO 5 -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/bellotappg.jpeg" alt="Tercer muñeco">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">Bellota PPG amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- NUEVO MUÑECO 6 -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/maruchan.jpeg" alt="Tercer muñeco">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">Maruchan amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- NUEVO MUÑECO 7 -->
+            <div class="portfolio-item reveal" data-category="munecos">
+                <img src="images/sirena.jpeg" alt="Tercer muñeco">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Muñecos</span>
+                    <h3 class="portfolio-title">Sirena amigurumi</h3>
+                </div>
+            </div>
+
+            <!-- Item 2: Llavero -->
+            <div class="portfolio-item reveal" data-category="llaveros">
+                <img src="images/notebookkeychain.png" alt="Llavero de mini libreta personalizado">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Llaveros</span>
+                    <h3 class="portfolio-title">Llavero Libreta Gatito</h3>
+                </div>
+            </div>
+
+            <!-- Item 3: Libreta -->
+            <div class="portfolio-item reveal" data-category="libretas">
+                <img src="images/mazapannb.jpeg" alt="Libreta artística hecha a mano">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Libretas</span>
+                    <h3 class="portfolio-title">Journal Mazapan_superheroe_libreta</h3>
+                </div>
+            </div>
+
+            <!-- Item 4: Dibujo -->
+            <div class="portfolio-item reveal" data-category="dibujos">
+                <img src="images/astrodibujo.jpeg" alt="Dibujo mágico en acuarela">
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Dibujos</span>
+                    <h3 class="portfolio-title">Astronauta en acuarela</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto">
+        <h2 class="reveal">Ponte en Contacto</h2>
+
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h3>¿Quieres una pieza personalizada?</h3>
+                <p>Escríbenos y haremos realidad tus ideas. Responderemos lo más pronto posible con detalles sobre
+                    pedidos y cotizaciones. ¡Nos encanta participar en tus proyectos creativos!</p>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <strong>Email</strong>
+                        <p>onirica.crafts65@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <div>
+                        <strong>Teléfono / WhatsApp</strong>
+                        <p>+52 229 763 7029</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <strong>Ubicación</strong>
+                        <p>Envíos dentro de todo México</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="pedido-form">
+                <div class="form-group">
+                    <input type="text" id="nombre" placeholder="Tu Nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="correo" placeholder="Tu Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensaje"
+                        placeholder="Cuéntanos sobre tu idea o pedido (ej. quiero un llavero de estrella azul)..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" onclick="enviarWhatsApp(event)">Enviar
+                    Mensaje por WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Onírica Manualidades. Todos los derechos reservados. Diseñado con magia.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
